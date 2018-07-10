@@ -1,0 +1,1 @@
+"use strict";const Koa=require("koa"),app=new Koa;app.use(async o=>{o.body="Hello World!!!!koa2"}),app.listen(8081,()=>{console.log("success8081")});
